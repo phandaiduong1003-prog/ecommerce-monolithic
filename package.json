@@ -1,0 +1,36 @@
+{
+  "name": "ecommerce-monolithic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start": "node src/server.js",
+  "dev": "node --watch src/server.js",
+  "seed": "node prisma/seed.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phandaiduong1003-prog/ecommerce-monolithic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/phandaiduong1003-prog/ecommerce-monolithic/issues"
+  },
+  "homepage": "https://github.com/phandaiduong1003-prog/ecommerce-monolithic#readme",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.10.0",
+    "@prisma/client": "^7.10.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "prisma": "^7.10.0"
+  }
+}
